@@ -32,6 +32,7 @@ public class NewCustomerPageTest extends TestBase {
 		homepage = loginpage.VerifyLogin(prop.getProperty("Username"), prop.getProperty("Password"));
 	}
 
+	//tEST FIRST
 	@Test(priority = 1)
 	public void NewCustomerpageTitleTest() {
 		homepage.ClickonNewCustomerlink();
