@@ -34,6 +34,7 @@ public class NewCustomerPageTest extends TestBase {
 
 	//tEST FIRST
 	//Atul change comment
+	// akshay changes comment
 	@Test(priority = 1)
 	public void NewCustomerpageTitleTest() {
 		homepage.ClickonNewCustomerlink();
